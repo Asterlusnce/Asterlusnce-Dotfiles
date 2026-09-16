@@ -16,5 +16,5 @@ Taking a bit of people's config and maintain it.
 Third Version (v.1.2):
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0ae40ef0-0d15-4dab-90fb-96e7d2996781" />
 
-Niri-v5 version: (v2)
+Noctalia-v5 version: (v2) - This is official v1 Ricing lmaoo, take a much time to reach this
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6424b290-a64f-411a-851d-97a05d3ff4c4" />
