@@ -16,3 +16,5 @@ Taking a bit of people's config and maintain it.
 Third Version (v.1.2):
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0ae40ef0-0d15-4dab-90fb-96e7d2996781" />
 
+Niri-v5 version:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5baa656f-5045-47cd-9004-f4b890ee361c" />
