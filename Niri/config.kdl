@@ -122,6 +122,9 @@ layout {
     // - "on-overflow", focusing a column will center it if it doesn't fit
     //   together with the previously focused column.
     center-focused-column "never"
+    // Set transparent workspace background color so the backdrop is visible at all times.
+    background-color "transparent"
+
 
     // You can customize the widths that "switch-preset-column-width" (Mod+R) toggles between.
     preset-column-widths {
@@ -243,7 +246,7 @@ layout {
         softness 30
 
         // Spread expands the shadow.
-        spread 5
+        spread 6
 
         // Offset moves the shadow relative to the window.
         offset x=0 y=5
@@ -265,6 +268,18 @@ layout {
     }
 }
 
+// Place the regular wallpaper on the backdrop.
+layer-rule {
+  match namespace="^noctalia-wallpaper"
+  place-within-backdrop true
+}
+
+// Optionally, disable workspace shadows in the overview.
+overview {
+  workspace-shadow {
+    off
+    }
+}
 // Add lines like this to spawn processes at startup.
 // Note that running niri as a session supports xdg-desktop-autostart,
 // which may be more convenient to use.
@@ -376,9 +391,36 @@ window-rule {
   default-window-height { fixed 920; }
 }
 
+window-rule {
+    match app-id="discord"
+    opacity 0.85
+    background-effect {
+      blur true
+    }
+}
+
+window-rule {
+    match app-id="spotify"
+    opacity 0.80
+    background-effect {
+      blur true
+    }
+}
+
+window-rule {
+    match app-id="^code$"
+    opacity 0.80
+    draw-border-with-background false
+    background-effect {
+        blur true
+        saturation 1.2
+    }
+}
+
 debug {
   // Allows notification actions and window activation from Noctalia.
   honor-xdg-activation-with-invalid-serial
+  ignore-drm-device "/dev/dri/by-path/pci-0000:01:00.0-render"
 }
 
 binds {
