@@ -1,0 +1,10 @@
+shell-integration = fish
+# Tells Ghostty to load Fish as your default shell
+command = fish --login --interactive
+background-opacity = 0.45
+background-blur = true
+theme = noctalia
+
+window-padding-balance = false
+window-padding-x = 14
+window-padding-y = 12
