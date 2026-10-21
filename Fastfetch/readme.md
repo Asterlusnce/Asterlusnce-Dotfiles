@@ -4,3 +4,6 @@ Kitty not yet configured.
 
 New one:
 <img width="1671" height="831" alt="image" src="https://github.com/user-attachments/assets/8d99557f-ddf8-4968-9088-caf49f147a02" />
+
+New-new one:
+<img width="1125" height="629" alt="image" src="https://github.com/user-attachments/assets/66282723-8153-4ea8-915e-be6dbfcafb9d" />
