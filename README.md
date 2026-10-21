@@ -20,5 +20,5 @@ Noctalia-v5 version: (v2) - This is official v1 Ricing lmaoo, take a much time t
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6424b290-a64f-411a-851d-97a05d3ff4c4" />
 
 Gentoo Version:
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/86d7ea50-1683-451d-a71b-5682933fe22d" />
+<img width="1920" height="1077" alt="image" src="https://github.com/user-attachments/assets/f4cf170c-c1cc-4c23-8e7e-37d6100dcb62" />
 
