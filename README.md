@@ -22,5 +22,5 @@ Noctalia-v5 version: (v2) - This is official v1 Ricing lmaoo, take a much time t
 Gentoo Version:
 <img width="1920" height="1077" alt="image" src="https://github.com/user-attachments/assets/f4cf170c-c1cc-4c23-8e7e-37d6100dcb62" />
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fa51dee9-760b-428b-b77e-5097de09452d" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7386a48d-b8db-4efd-9f39-55f0b2f9b814" />
 why am I uplouded these? lmaoo
