@@ -1,20 +1,10 @@
 {
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
- // "logo": {
- //   "source": "~/.config/images/waifu1.png",
- //   "color": {
- //     "1": "#C4A7E7"
-        //"source": "$(find \"${XDG_CONFIG_HOME:-$HOME/.config}/fastfetch/png/\" -name \"*.png\" | shuf -n 1)",
-//    "source": "$HOME/.config/fastfetch/ascii/rose.txt",
-//    "padding": {
-//      "top": 4,
-//      "right": 5
-//    },
-//    "height": 18
-//  },
-//  "display": {
-//    "separator": " ▸ " // :
-//  },
+ "logo": {
+  "type": "kitty-icat", 
+  "source": "~/Pictures/logo.gif",
+  "animationFrame": 0
+},
 "modules": [
   {
     "type": "title"
@@ -26,27 +16,27 @@
 },
 {
   "type": "os",
-  "key": "",
+  //"key": "",
   "keycolor": "red"
 },
 {
   "type": "kernel",
-  "key": "",
+  "key": "🐧",
   "keycolor": "red"
 },
 {
   "type": "de",
-  "key": "",
+  "key": "⛩️",
   "keycolor": "green"
 },
 {
   "type": "wm",
-  "key": "",
+  "key": "⛩️",
   "keycolor": "green"
 },
 {
   "type": "packages",
-  "key": "",
+  //"key": "",
   "keycolor": "yellow"
 },
 {
@@ -55,37 +45,37 @@
 },
 {
   "type": "memory",
-  "key": "",
+  //"key": "",
   "keycolor": "blue"
 },
 {
+  "type": "swap",
+  //"key": "",
+  "keycolor": "magenta"
+},
+{
   "type": "host",
-  "key": "",
+  //"key": "",
   "keycolor": "blue"
 },
 {
   "type": "cpu",
-  "key": "",
+  //"key": "",
   "keycolor": "blue"
 },
 {
   "type": "gpu",
-  "key": "",
-  "keycolor": "magenta"
-},
-{
-  "type": "swap",
-  "key": "",
+  //"key": "",
   "keycolor": "magenta"
 },
 {
   "type": "disk",
-  "key": "",
+  "key": "Disk",
   "keycolor": "red"
 },
 {
   "type": "battery",
-  "key": "",
+  //"key": "",
   "keycolor": "red"
 },
 {
@@ -94,18 +84,23 @@
 },
 {
   "type": "uptime",
-  "key": "",
+  //"key": "",
   "keycolor": "yellow"
 },
 {
   "type": "terminal",
-  "key": "",
+  //"key": "",
   "keycolor": "yellow"
 },
 {
   "type": "locale",
-  "key": "",
+  //"key": "",
   "keycolor": "yellow"
+},
+{
+    "type": "command",
+    "key": "OS Age",
+    "text": "echo $(( ($(date +%s) - $(stat -c %W /)) / 86400 )) days"
 },
 {
   "type": "custom",
@@ -119,12 +114,5 @@
     "width": 10
   }
 },
-{
-    "type": "command",
-    "key": "OS Age",
-    "text": "echo $(( ($(date +%s) - $(stat -c %W /)) / 86400 )) days"
-},
-"break"
 ]
-
 }
