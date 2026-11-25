@@ -1,0 +1,10 @@
+*/* VIDEO_CARDS: -* nvidia
+# required by sys-kernel/gentoo-kernel-bin-6.18.54::gentoo[initramfs]
+# required by virtual/dist-kernel-6.18.54::gentoo
+>=sys-kernel/installkernel-68-r1 dracut
+# required by xfce-base/xfce4-panel-4.20.8::gentoo[dbusmenu]
+# required by xfce-base/thunar-4.20.8::gentoo[trash-panel-plugin]
+# required by xfce-base/thunar-volman-4.20.0::gentoo
+# required by xfce-base/xfce4-meta-4.20::gentoo
+# required by xfce-base/xfce4-meta (argument)
+>=dev-libs/libdbusmenu-16.04.0-r4 gtk3

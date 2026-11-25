@@ -1,0 +1,3 @@
+gui-libs/scenefx **
+gui-wm/mangowm **
+dev-cpp/sdbus-c++ ~amd64

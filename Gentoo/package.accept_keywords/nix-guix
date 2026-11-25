@@ -1,0 +1,3 @@
+*/*::nix-guix
+dev-libs/libcpuid ~amd64
+dev-cpp/toml11 ~amd64

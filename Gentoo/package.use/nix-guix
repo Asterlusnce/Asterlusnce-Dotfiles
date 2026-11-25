@@ -1,0 +1,7 @@
+>=dev-libs/boehm-gc-8.2.12 cxx
+>=dev-libs/boehm-gc-8.2.12 cxx
+>=virtual/libcrypt-2-r1 static-libs
+>=sys-libs/libxcrypt-4.4.38-r1 static-libs
+# required by app-misc/anki-25.09.2::gentoo[python_single_target_python3_14,gui,-test]
+# required by app-misc/anki (argument)
+>=dev-python/pyqt6-6.11.0-r1 quick

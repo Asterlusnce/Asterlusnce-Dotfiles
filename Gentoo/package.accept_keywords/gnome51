@@ -1,0 +1,5 @@
+=x11-wm/mutter-51.0 ~amd64
+=gnome-base/gsettings-desktop-schemas-51.0 ~amd64
+=gnome-base/gnome-session-51.0 ~amd64
+=gnome-base/gdm-51.0 ~amd64
+=gnome-base/gnome-session-openrc-51.0_p20260809 ~amd64

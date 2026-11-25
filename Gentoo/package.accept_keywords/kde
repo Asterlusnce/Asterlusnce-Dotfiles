@@ -1,0 +1,5 @@
+kde-plasma/* ~amd64
+kde-frameworks/* ~amd64
+kde-apps/* ~amd64
+dev-libs/cxx-rust-casper ~amd64
+dev-libs/cxx-rust-cssparser ~amd64

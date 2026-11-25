@@ -1,0 +1,3 @@
+app-misc/yazi ~amd64
+# required by games-misc/an-anime-game-launcher (argument)
+=games-misc/an-anime-game-launcher-3.19.8 ~amd64

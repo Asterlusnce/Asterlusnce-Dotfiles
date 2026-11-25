@@ -1,0 +1,4 @@
+*/* VIDEO_CARDS: -* nvidia
+# required by sys-kernel/gentoo-kernel-6.18.54::gentoo[initramfs]
+# required by virtual/dist-kernel-6.18.54::gentoo
+>=sys-kernel/installkernel-68-r1 dracut

@@ -1,0 +1,32 @@
+sys-libs/zlib abi_x86_32
+virtual/zlib abi_x86_32
+# required by net-fs/samba-4.24.4::gentoo
+# required by net-fs/cifs-utils-7.5-r1::gentoo[acl]
+>=net-libs/ngtcp2-1.25.0 gnutls
+# required by dev-libs/glib-2.88.2::gentoo[sysprof]
+# required by x11-libs/gdk-pixbuf-xlib-2.40.2::gentoo
+# required by www-client/w3m-0.5.6::gentoo[gdk-pixbuf,X]
+# required by virtual/w3m-1::gentoo
+# required by app-text/xmlto-0.0.28-r11::gentoo
+# required by app-admin/system-config-printer-1.5.18-r3::bentoo
+# required by gnome-base/gnome-control-center-49.9::gentoo[cups]
+# required by net-libs/gnome-online-accounts-3.56.5::gentoo[gnome]
+# required by gnome-extra/evolution-data-server-3.60.2::gentoo
+# required by gnome-base/gnome-shell-51.0::bentoo
+# required by virtual/notification-daemon-0::gentoo[gnome]
+# required by x11-libs/libnotify-0.8.8::gentoo
+# required by x11-libs/wxGTK-3.2.8.1-r2::gentoo[X,libnotify]
+# required by media-video/mediainfo-24.11-r1::gentoo
+# required by kde-apps/kdenlive-26.08.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-util/sysprof-capture-50.0 abi_x86_32
+# required by kde-plasma/plasma-meta-6.8.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=kde-plasma/kwin-6.8.3 lock
+# required by virtual/minizip-1.3.1::gentoo[-static-libs]
+# required by net-analyzer/wireshark-4.6.10::bentoo[minizip]
+# required by @selected
+# required by @world (argument)
+>=sys-libs/zlib-1.4 minizip
